@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="mine">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hari</title>
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS -->
     <link rel="stylesheet" href="hari.css">
     <link rel="stylesheet" href="bulma/css/bulma.min.css">
 </head>
@@ -22,48 +27,294 @@
 
         <div id="navbarBasicExample" class="navbar-menu">
             <div class="navbar-start">
-                <a class="navbar-item">
-                    landing
+                <a class="navbar-item" href="#landing">
+                    Landing<i class="fas fa-home"></i> 
                 </a>
 
-                <a class="navbar-item">
-                    About me
+                <a class="navbar-item" href="#aboutme">
+                    About me <i class="far fa-address-card"></i>
                 </a>
 
-                <a class="navbar-item">
-                    projects
+                <a class="navbar-item" href="#skills">
+                    skills <i class="fas fa-book"></i>
                 </a>
 
-                <a class="navbar-item">
-                    skills
+                <a class="navbar-item" href="#projects">
+                    projects <i class="fas fa-folder-open"></i>
                 </a>
 
-                <a class="navbar-item">
-                    Contact me!
+                <a class="navbar-item" href="#contact">
+                    Contact me! <i class="fas fa-address-book"></i>
                 </a>
 
-                
+
             </div>
 
             <div class="navbar-end">
                 <a class="navbar-item">
-                    insta
+                    <i class="fab fa-instagram"></i>
                 </a>
 
                 <a class="navbar-item">
-                    github
+                    <i class="fab fa-github"></i>
                 </a>
 
                 <a class="navbar-item">
-                    linkin
+                    <i class="fab fa-linkedin"></i>
                 </a>
             </div>
         </div>
     </nav>
 
     <!-- landing -->
-    <div class="hero block_article" style="background-image: url('https://images.unsplash.com/photo-1642443807473-75c4df20bd93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80');">
-        <span>Hari Krishnan O</span>
+    <div class="hero block_article parallax is-size-1">
+            <h2>Hari krishnan O</h2>
     </div>
+
+    <!-- about -->
+    <section class="section is-medium" id="aboutme">
+
+        <section class="hero is-small is-danger has-text-black">
+            <div class="hero-body">
+                <p class="title">
+                    About me
+                </p>
+            </div>
+        </section>
+
+
+        <div class="columns">
+            <div class="column">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img id="photo" src="image/WhatsApp Image 2021-12-19 at 4.40.11 PM.jpeg">
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <header class="card-header">
+                        <p class="card-header-title">
+                            Hari krishnan O
+                        </p>
+                        <button class="card-header-icon" aria-label="more options">
+                            <span class="icon">
+                                <i class="fas fa-angle-down" aria-hidden="true"></i>
+                            </span>
+                        </button>
+                    </header>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <div class="content">
+                            Lorem ipsum leo risus, porta ac consectetur ac, vestibulum at eros. Donec id elit non mi
+                            porta gravida at eget metus. Cum sociis natoque penatibus et magnis dis parturient montes,
+                            nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills -->
+    <section class="section" id="skills">
+        <div class="tile is-ancestor">
+            <div class="tile is-parent">
+                <article class="tile is-child box has-background-danger has-text-white-bis">
+                    <p class="title">HTML</p>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu
+                            pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+                            facilisis.</p>
+                    </div>
+                </article>
+            </div>
+            <div class="tile is-parent">
+                <article class="tile is-child box has-background-info has-text-white-bis">
+                    <p class="title">CSS</p>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu
+                            pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+                            facilisis.</p>
+                    </div>
+                </article>
+            </div>
+            <div class="tile is-parent">
+                <article class="tile is-child box has-background-warning has-text-white-bis">
+                    <p class="title">JavaScript</p>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu
+                            pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+                            facilisis.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+        <div class="tile is-ancestor">
+            <div class="tile is-parent">
+                <article class="tile is-child box has-background-primary has-text-white-bis">
+                    <p class="title">Nodejs</p>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu
+                            pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+                            facilisis.</p>
+                    </div>
+                </article>
+            </div>
+            <div class="tile is-parent">
+                <article class="tile is-child box has-background-success has-text-white-bis">
+                    <p class="title">MongoDB</p>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu
+                            pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+                            facilisis.</p>
+                    </div>
+                </article>
+            </div>
+            <div class="tile is-parent">
+                <article class="tile is-child box has-background-link has-text-white-bis">
+                    <p class="title">React</p>
+                    <div class="content">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu
+                            pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat
+                            facilisis.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- projects -->
+    <section class="section" id="projects">
+        <div class="columns">
+            <div class="column">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <p class="title is-4">project 1</p>
+                        <div class="content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                            <a href="#">#css</a> <a href="#">#responsive</a>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="column">
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <p class="title is-4">project 2</p>
+                        <div class="content">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Phasellus nec iaculis mauris. <a>@bulmaio</a>.
+                            <a href="#">#css</a> <a href="#">#responsive</a>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Contact -->
+    <section class="hero is-small is-warning" id="contact">
+        <div class="hero-body">
+            <p class="title">
+                Get in touch
+            </p>
+        </div>
+    </section>
+
+
+    <section class="section">
+        <div class="container">
+            <form action="#happiness">
+                <div class="field">
+                    <label class="label">Name</label>
+                    <div class="control">
+                        <input class="input" type="text" placeholder="e.g Alex Smith">
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">Company</label>
+                    <div class="control">
+                        <input class="input" type="text" placeholder="e.g Alex Smith">
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">Contact Number:</label>
+                    <div class="control">
+                        <input class="input" type="text" placeholder="e.g Alex Smith">
+                    </div>
+                </div>
+
+                <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control">
+                        <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com">
+                    </div>
+                </div>
+
+                <div class="field is-grouped is-grouped-centered">
+                    <p class="control">
+                        <a class="button is-primary">
+                            Submit
+                        </a>
+                    </p>
+                    <p class="control">
+                        <a class="button is-light">
+                            Cancel
+                        </a>
+                    </p>
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- footer -->
+
+    <footer class="footer">
+        <div class="content has text-centered">
+            <div class="columns">
+                <div class="column has text-left">
+                    <p>Created by HarikrishnanO</p>
+                </div>
+                <div class="column">
+                    <p>&#169 harikrishnan</p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+</body>
 
 </html>

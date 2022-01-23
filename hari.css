@@ -12,3 +12,37 @@
     text-shadow: 2px 2px black;
     font-size: 7em;
 }
+
+#photo{
+    width: 100%;
+    height: 100%;
+}
+
+body, html {
+    height: 100%;
+    background-color: black;
+  }
+  
+  .parallax {
+    /* The image used */
+    background-image: url("https://images.unsplash.com/photo-1642443807473-75c4df20bd93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #mine{
+      background-color: black;
+  }
+
+  h2{
+      color: white;
+      text-transform: uppercase;
+
+  }
