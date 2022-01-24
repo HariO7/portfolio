@@ -14,8 +14,9 @@
 }
 
 #photo{
-    width: 100%;
+    width: 400px;
     height: 100%;
+    margin: auto;
 }
 
  html {
@@ -28,7 +29,7 @@
   
   .parallax {
     /* The image used */
-    background-image: url("https://images.unsplash.com/photo-1497076888581-9acaad5f74cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80");
+    background-image: url("https://images.unsplash.com/photo-1642443807473-75c4df20bd93?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80");
   
     /* Full height */
     height: 100%;
@@ -68,7 +69,7 @@ body {
 }
 
 h1.head{
-  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-image: url(https://c.tenor.com/NzPbQ6HGKOgAAAAd/aesthetic-shapes.gif);
   background-size: cover;
   color: transparent;
   -moz-background-clip: text;
